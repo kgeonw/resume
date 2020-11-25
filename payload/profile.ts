@@ -1,21 +1,20 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faGithub, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/kgeonw.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
   disable: false,
 
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '김 건 우',
+    small: '(Kgeonw)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'kgw8919@gmail.com',
       link: '#',
       icon: faEnvelope,
     },
@@ -25,13 +24,13 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/kgeonw',
+      link: 'https://github.com/kgeonw',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      link: 'https://www.linkedin.com/in/kgeonw',
+      icon: faLinkedin,
     },
     {
       title: 'YouTube',
@@ -41,7 +40,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: 'E-mail, Github를 주로 사용합니다.',
     icon: faBell,
   },
 };

@@ -1,5 +1,5 @@
 import favicon from '../asset/favicon.ico';
-import previewImage from '../asset/preview.jpg';
+import previewImage from '../asset/kgeonw.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = 'RESUME-NEXTJS Sample Page';

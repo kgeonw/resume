@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "lastestUpdatedAt": "2020-11-24",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
   "scripts": {

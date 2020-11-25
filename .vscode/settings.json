@@ -1,6 +1,7 @@
 {
   "files.watcherExclude": {
-    "docs/**": true
+    "docs/**": true,
+    "node_modules/**": true
   },
   "search.exclude": {
     "docs/**": true
